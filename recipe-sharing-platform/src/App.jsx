@@ -1,12 +1,8 @@
-import './App.css'
 import './index.css'
+import HomePage from './components/HomePage'
 
 function App() {
-  return (
-    <>
-      <h1 className='text-4xl text-blue-800'>Recipe App</h1>
-    </>
-  )
+  return <HomePage />
 }
 
 export default App
