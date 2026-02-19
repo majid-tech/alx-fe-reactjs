@@ -1,9 +1,19 @@
+import { useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import recipeData from '../data.json'
 
 function RecipeDetail() {
   const { id } = useParams()
   const recipe = recipeData.find((item) => String(item.id) === String(id)) || null
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+    document.title = recipe ? `${recipe.title} | Recipe Sharing Platform` : 'Recipe Not Found | Recipe Sharing Platform'
+
+    return () => {
+      document.title = 'Recipe Sharing Platform'
+    }
+  }, [recipe])
 
   if (!recipe) {
     return (
