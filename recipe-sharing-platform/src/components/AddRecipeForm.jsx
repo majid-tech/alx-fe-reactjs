@@ -13,8 +13,8 @@ function AddRecipeForm() {
   const [submitMessage, setSubmitMessage] = useState('')
 
   const handleChange = (event) => {
-    const { name, value } = event.target
-    setFormData((prev) => ({ ...prev, [name]: value }))
+    const { name } = event.target
+    setFormData((prev) => ({ ...prev, [name]: event.target.value }))
   }
 
   const validateForm = () => {
