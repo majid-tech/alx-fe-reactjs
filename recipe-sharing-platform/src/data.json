@@ -3,12 +3,46 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=1200&q=80",
+    "ingredients": [
+      "400g spaghetti",
+      "150g pancetta or bacon",
+      "2 large eggs",
+      "1 cup grated Parmesan cheese",
+      "2 cloves garlic, minced",
+      "Salt and black pepper to taste"
+    ],
+    "instructions": [
+      "Cook spaghetti in salted boiling water until al dente.",
+      "In a pan, cook pancetta until crisp, then add garlic and cook for 30 seconds.",
+      "Whisk eggs and Parmesan together in a bowl.",
+      "Drain pasta and quickly toss with pancetta off the heat.",
+      "Stir in egg-cheese mixture, adding a splash of pasta water if needed.",
+      "Season with black pepper and serve immediately."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
-    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://via.placeholder.com/150"
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery and creamy tomato-based gravy.",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=1200&q=80",
+    "ingredients": [
+      "500g boneless chicken thighs",
+      "1 cup yogurt",
+      "2 tbsp tikka masala spice mix",
+      "1 onion, finely chopped",
+      "2 cups tomato puree",
+      "1/2 cup heavy cream",
+      "2 tbsp butter",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Marinate chicken with yogurt and half the spice mix for at least 30 minutes.",
+      "Grill or pan-sear chicken until lightly charred and mostly cooked.",
+      "Saute onion in butter until soft; add remaining spice mix.",
+      "Add tomato puree and simmer for 10 minutes.",
+      "Stir in cream, then add chicken and simmer until fully cooked.",
+      "Adjust salt and serve hot with rice or naan."
+    ]
   }
 ]
