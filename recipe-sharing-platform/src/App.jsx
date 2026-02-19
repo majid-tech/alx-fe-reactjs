@@ -4,7 +4,7 @@ import './index.css'
 function App() {
   return (
     <>
-      <h1 className='bg-amber-100'>Recipe App</h1>
+      <h1 className='text-4xl text-blue-800'>Recipe App</h1>
     </>
   )
 }
