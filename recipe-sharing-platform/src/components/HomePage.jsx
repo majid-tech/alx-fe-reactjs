@@ -11,6 +11,12 @@ function HomePage() {
         <header className="mb-8 text-center">
           <h1 className="text-3xl font-bold text-amber-900 sm:text-4xl">Recipe Sharing Platform</h1>
           <p className="mt-2 text-sm text-amber-700 sm:text-base">Discover and share your favorite recipes.</p>
+          <Link
+            to="/add-recipe"
+            className="mt-4 inline-block rounded-lg bg-amber-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-amber-700"
+          >
+            Add Recipe
+          </Link>
         </header>
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
